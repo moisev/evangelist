@@ -19,7 +19,7 @@ object JobOne
 
   val rsvp = buildFrame(extractedJSON)
 
-  val patternToOmit = "[^'A-Za-zÀ-ÖØ-öø-ÿ0-9_ \\-]"
+  val patternToOmit = "[^'A-Za-zÀ-ÖØ-öø-ÿ0-9 ]"
   val patternMultipleSpaces = " +"
   val patternSpace = " "
 
